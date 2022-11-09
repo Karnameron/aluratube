@@ -1,8 +1,10 @@
 import config from "../config.json"
 import styled from "styled-components";
 import { CSSReset } from "../src/components/CSSReset";
-import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
+import Menu from "../src/components/Menu";
+import Banner from "../src/components/Banner";
+import Favoritos from "../src/components/Favoritos";
 
 
 
@@ -13,8 +15,8 @@ const StyleDoApp = {
 const StyledHeader = styled.div`
 
 img {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
 
 }
@@ -38,8 +40,9 @@ function HomePage() {
             <div>
                 <Menu></Menu>
                 <Header></Header>
-                <TimeLine playlists={config.playlists}>
-                </TimeLine>
+                <Banner></Banner>
+                <TimeLine playlists={config.playlists}></TimeLine>
+                <Favoritos favo={config.favo}> </Favoritos>
             </div>
         </>
     )
@@ -92,3 +95,5 @@ function TimeLine(propriedade) {
         </StyledTimeline>
     )
 }
+
+

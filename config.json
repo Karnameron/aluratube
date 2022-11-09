@@ -2,6 +2,25 @@
     "name": "Lucas Rocha Andrade",
     "description": "IT Assistant",
     "github": "Karnameron",
+    "favo":{
+      "favoritos":[
+        {
+          "url":"https://github.com/filipedeschamps", 
+          "title":"@filipedeschamps",
+          "gitimg":"https://github.com/filipedeschamps.png"
+        },
+        {
+          "url":"https://github.com/lucasmontano", 
+          "title":"@lucasmontano",
+          "gitimg":"https://github.com/lucasmontano.png"
+        },
+        {
+          "url":"https://github.com/omariosouto", 
+          "title":"@omariosouto",
+          "gitimg":"https://github.com/omariosouto.png"
+        }
+      ]
+    },
     "playlists": {
       "jogos": [
           {
